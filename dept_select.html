@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appointment - Department</title>
+    <link rel="stylesheet" href="appt_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="title">Select Department</div>
+    <div class="box">
+    <form method="post" action="dept_select.php">
+      <input type="radio" name="select" id="cardiology" value="cardiology">
+      <input type="radio" name="select" id="gynaecology" value="gynaecology">
+      <input type="radio" name="select" id="neurology" value="neurology">
+      <input type="radio" name="select" id="opd" value="opd">
+      <input type="radio" name="select" id="radiology" value="radiology">
+      <label for="cardiology" class="cardiology">
+        <div class="dot"></div>
+        <div class="text">Cardiology</div>
+      </label>
+      <p class="disc"> heart surgeries and medicines, procedures such as stent, angioplasty etc</p><br>
+      <label for="gynaecology" class="gynaecology">
+        <div class="dot"></div>
+        <div class="text">Gynaecology</div>
+      </label>
+      <p class="disc"> issues that affect the female reproductive system — which includes the vulva, vagina, uterus (womb) and ovaries.</p><br>
+      <label for="neurology" class="neurology">
+        <div class="dot"></div>
+        <div class="text">Neurology</div>
+      </label>
+      <p class="disc"> brain diseases, regular checkups etc</p><br>
+      <label for="opd" class="opd">
+        <div class="dot"></div>
+        <div class="text">OPD</div>
+      </label>
+      <p class="disc"> general medicine and regular checkups</p><br>
+      <label for="radiology" class="radiology">
+        <div class="dot"></div>
+        <div class="text">Radiology</div>
+      </label>
+      <p class="disc"> X-ray, MRI, CT-scans, sonography etc.</p><br>
+      <input type="submit" value="Next >">
+    </div>
+  </form>
+  </div>
+</body>
+</html>

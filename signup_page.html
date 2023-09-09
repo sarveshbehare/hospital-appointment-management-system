@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div class="center">
+        <h1>Sign Up</h1>
+        <form action="signup.php" method="post">
+            <div class="txt_field">
+                <input type="email" name="email" id="email" required>
+                <span></span>
+                <label>Email</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="name" id="name" required>
+                <span></span>
+                <label>Name</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="address" id="address" required>
+                <span></span>
+                <label>Adress</label>
+            </div>
+            <div class="txt_field">
+                <input type="number" name="age" id="age" required>
+                <span></span>
+                <label>Age</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" name="gender" id="gender" required>
+                <span></span>
+                <label>Gender (Male/Female/Other)</label>
+            </div>
+            <div class="txt_field">
+                <input type="phone" name="phone" id="phone" required>
+                <span></span>
+                <label>Phone</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" name="password" id="password" required>
+                <span></span>
+                <label>Password</label>
+            </div>
+            <input type="submit" value="Sign Up">
+            <div class="signup_link">
+                Already a member? <a href="login_page.html">Log In</a>
+            </div>
+        </form>
+     </div>
+</body>
+</html>
